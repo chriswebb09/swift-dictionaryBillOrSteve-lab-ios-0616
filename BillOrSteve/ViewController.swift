@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var facts: [String: [String]]
+    
+    @IBOutlet weak var factLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -25,5 +29,19 @@ class ViewController: UIViewController {
         } else {
             return "Bill Gates"
         }
+    }
+    
+    func createFacts() {
+        
+    }
+    
+    @IBAction func steveButtonTapped(sender: AnyObject) {
+    }
+    
+    @IBAction func billButtonTapped(sender: AnyObject) {
+    }
+    
+    func getRandomFact() {
+        
     }
 }
